@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Sebastian Herrera- DCI-CESE-FIUBA"
-Date "2020-09-12"
+Title "TP-Driver Motor PaP-DCI-CESE-FIUBA"
+Date "2020-10-08"
 Rev "1"
-Comp "Proyecto -TP "
+Comp "Sebastian Herrera"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -19,7 +19,7 @@ U 1 1 5F5CF433
 P 4900 1900
 F 0 "U1" H 4900 2225 50  0000 C CNN
 F 1 "4N25" H 4900 2134 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 4700 1700 50  0001 L CIN
+F 2 "Package_DIP:SMDIP-6_W9.53mm" H 4700 1700 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 4900 1900 50  0001 L CNN
 	1    4900 1900
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 5F5D4330
 P 4900 2800
 F 0 "U2" H 4900 3125 50  0000 C CNN
 F 1 "4N25" H 4900 3034 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 4700 2600 50  0001 L CIN
+F 2 "Package_DIP:SMDIP-6_W9.53mm" H 4700 2600 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 4900 2800 50  0001 L CNN
 	1    4900 2800
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5F5D6BBE
 P 4900 3700
 F 0 "U3" H 4900 4025 50  0000 C CNN
 F 1 "4N25" H 4900 3934 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 4700 3500 50  0001 L CIN
+F 2 "Package_DIP:SMDIP-6_W9.53mm" H 4700 3500 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 4900 3700 50  0001 L CNN
 	1    4900 3700
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 5F5D7FD8
 P 4900 4550
 F 0 "U4" H 4900 4875 50  0000 C CNN
 F 1 "4N25" H 4900 4784 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 4700 4350 50  0001 L CIN
+F 2 "Package_DIP:SMDIP-6_W9.53mm" H 4700 4350 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 4900 4550 50  0001 L CNN
 	1    4900 4550
 	1    0    0    -1  
@@ -62,8 +62,8 @@ L Device:R R1
 U 1 1 5F5DE19A
 P 4250 2150
 F 0 "R1" H 4320 2196 50  0000 L CNN
-F 1 "100" H 4320 2105 50  0000 L CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 4180 2150 50  0001 C CNN
+F 1 "180" H 4320 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 4180 2150 50  0001 C CNN
 F 3 "~" H 4250 2150 50  0001 C CNN
 	1    4250 2150
 	1    0    0    -1  
@@ -73,8 +73,8 @@ L Device:R R2
 U 1 1 5F5DF8E0
 P 4250 3050
 F 0 "R2" H 4320 3096 50  0000 L CNN
-F 1 "100" H 4320 3005 50  0000 L CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 4180 3050 50  0001 C CNN
+F 1 "180" H 4320 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 4180 3050 50  0001 C CNN
 F 3 "~" H 4250 3050 50  0001 C CNN
 	1    4250 3050
 	1    0    0    -1  
@@ -84,8 +84,8 @@ L Device:R R3
 U 1 1 5F5DFCEC
 P 4250 3950
 F 0 "R3" H 4320 3996 50  0000 L CNN
-F 1 "100" H 4320 3905 50  0000 L CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 4180 3950 50  0001 C CNN
+F 1 "180" H 4320 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 4180 3950 50  0001 C CNN
 F 3 "~" H 4250 3950 50  0001 C CNN
 	1    4250 3950
 	1    0    0    -1  
@@ -95,8 +95,8 @@ L Device:R R4
 U 1 1 5F5E0314
 P 4250 4800
 F 0 "R4" H 4320 4846 50  0000 L CNN
-F 1 "100" H 4320 4755 50  0000 L CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 4180 4800 50  0001 C CNN
+F 1 "180" H 4320 4755 50  0000 L CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 4180 4800 50  0001 C CNN
 F 3 "~" H 4250 4800 50  0001 C CNN
 	1    4250 4800
 	1    0    0    -1  
@@ -163,7 +163,7 @@ U 1 1 5F6AF5AB
 P 5400 1750
 F 0 "R5" H 5470 1796 50  0000 L CNN
 F 1 "100" H 5470 1705 50  0000 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 5330 1750 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 5330 1750 50  0001 C CNN
 F 3 "~" H 5400 1750 50  0001 C CNN
 	1    5400 1750
 	1    0    0    -1  
@@ -174,7 +174,7 @@ U 1 1 5F6AFB10
 P 5400 2650
 F 0 "R6" H 5470 2696 50  0000 L CNN
 F 1 "100" H 5470 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 5330 2650 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 5330 2650 50  0001 C CNN
 F 3 "~" H 5400 2650 50  0001 C CNN
 	1    5400 2650
 	1    0    0    -1  
@@ -185,7 +185,7 @@ U 1 1 5F6B0861
 P 5400 3550
 F 0 "R7" H 5470 3596 50  0000 L CNN
 F 1 "100" H 5470 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 5330 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 5330 3550 50  0001 C CNN
 F 3 "~" H 5400 3550 50  0001 C CNN
 	1    5400 3550
 	1    0    0    -1  
@@ -196,7 +196,7 @@ U 1 1 5F6B0CF9
 P 5400 4400
 F 0 "R8" H 5470 4446 50  0000 L CNN
 F 1 "100" H 5470 4355 50  0000 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 5330 4400 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 5330 4400 50  0001 C CNN
 F 3 "~" H 5400 4400 50  0001 C CNN
 	1    5400 4400
 	1    0    0    -1  
@@ -213,7 +213,7 @@ U 1 1 5F5F3A5C
 P 5500 2000
 F 0 "R9" V 5300 1900 50  0000 C CNN
 F 1 "1K" V 5400 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 5430 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 5430 2000 50  0001 C CNN
 F 3 "~" H 5500 2000 50  0001 C CNN
 	1    5500 2000
 	0    -1   -1   0   
@@ -224,7 +224,7 @@ U 1 1 5F5F9265
 P 5500 2900
 F 0 "R10" V 5700 2800 50  0000 C CNN
 F 1 "1K" V 5600 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 5430 2900 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 5430 2900 50  0001 C CNN
 F 3 "~" H 5500 2900 50  0001 C CNN
 	1    5500 2900
 	0    -1   1    0   
@@ -235,7 +235,7 @@ U 1 1 5F5FAE75
 P 5500 3800
 F 0 "R11" V 5300 3700 50  0000 C CNN
 F 1 "1K" V 5400 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 5430 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 5430 3800 50  0001 C CNN
 F 3 "~" H 5500 3800 50  0001 C CNN
 	1    5500 3800
 	0    -1   -1   0   
@@ -248,7 +248,7 @@ U 1 1 5F628B24
 P 5500 4650
 F 0 "R12" V 5300 4550 50  0000 C CNN
 F 1 "1K" V 5400 4550 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 5430 4650 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 5430 4650 50  0001 C CNN
 F 3 "~" H 5500 4650 50  0001 C CNN
 	1    5500 4650
 	0    -1   -1   0   
@@ -363,7 +363,7 @@ U 1 1 5F66A0A2
 P 6200 1700
 F 0 "Q1" H 6404 1746 50  0000 L CNN
 F 1 "IRF540N" H 6404 1655 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-262-3_Vertical" H 6450 1625 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 6450 1625 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6200 1700 50  0001 L CNN
 	1    6200 1700
 	1    0    0    -1  
@@ -374,7 +374,7 @@ U 1 1 5F681892
 P 6200 2600
 F 0 "Q2" H 6404 2646 50  0000 L CNN
 F 1 "IRF540N" H 6404 2555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-262-3_Vertical" H 6450 2525 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 6450 2525 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6200 2600 50  0001 L CNN
 	1    6200 2600
 	1    0    0    -1  
@@ -385,7 +385,7 @@ U 1 1 5F68510A
 P 6200 3450
 F 0 "Q3" H 6404 3496 50  0000 L CNN
 F 1 "IRF540N" H 6404 3405 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-262-3_Vertical" H 6450 3375 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 6450 3375 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6200 3450 50  0001 L CNN
 	1    6200 3450
 	1    0    0    -1  
@@ -396,7 +396,7 @@ U 1 1 5F68643F
 P 6200 4300
 F 0 "Q4" H 6404 4346 50  0000 L CNN
 F 1 "IRF540N" H 6404 4255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-262-3_Vertical" H 6450 4225 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 6450 4225 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6200 4300 50  0001 L CNN
 	1    6200 4300
 	1    0    0    -1  
@@ -525,7 +525,7 @@ Wire Wire Line
 	6300 2900 6300 2800
 Text Notes 7800 3600 0    50   ~ 0
 Conector a bobinas \nMotor paso a paso\n
-Text Notes 2400 3550 0    50   ~ 0
+Text Notes 2450 3500 0    50   ~ 0
 conector a edu-ciaa\n1->GPIO1\n2->GPIO2\n3->GPIO3\n4->GPIO4
 $Comp
 L Analog_ADC:ADS1015IDGS U5
@@ -541,13 +541,13 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x04 J1
 U 1 1 5F65097C
-P 8500 3100
-F 0 "J1" H 8580 3092 50  0000 L CNN
-F 1 "Screw_Terminal_01x04" H 8580 3001 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 8500 3100 50  0001 C CNN
-F 3 "~" H 8500 3100 50  0001 C CNN
-	1    8500 3100
-	1    0    0    -1  
+P 8500 3200
+F 0 "J1" H 8580 3192 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 8580 3101 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 8500 3200 50  0001 C CNN
+F 3 "~" H 8500 3200 50  0001 C CNN
+	1    8500 3200
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J3
@@ -561,31 +561,20 @@ F 3 "~" H 3650 1000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 4150 1000 0    50   ~ 0
-VCC
+GND1
 Wire Wire Line
 	3850 1000 4150 1000
 Text Label 4150 1100 0    50   ~ 0
-GND1
+VCC
 Wire Wire Line
 	3850 1100 4150 1100
 Text Notes 3250 1450 0    50   ~ 0
 Alimentacion fuente de alimentacion\ndiferente de Edu-Ciaa \nTension de alimentacion: 5Volts /3 Amp\n
 $Comp
-L Poncho_Esqueleto:Conn_Poncho2P_2x_20x2 XA-2
-U 2 1 5F6D5FC5
-P 1550 1100
-F 0 "XA-2" H 1900 1647 60  0000 C CNN
-F 1 "Conn_Poncho2P_2x_20x2" H 1900 1541 60  0000 C CNN
-F 2 "Poncho_Esqueleto:Conn_Poncho_Chico" H 1550 1100 60  0001 C CNN
-F 3 "" H 1550 1100 60  0000 C CNN
-	2    1550 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Poncho_Esqueleto:Conn_Poncho2P_2x_20x2 XA-1
+L Poncho_Esqueleto:Conn_Poncho2P_2x_20x2 X1
 U 1 1 5F6D7DDE
 P 2200 5350
-F 0 "XA-1" H 2550 5897 60  0000 C CNN
+F 0 "X1" H 2550 5897 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 2550 5791 60  0000 C CNN
 F 2 "Poncho_Esqueleto:Conn_Poncho_Chico" H 2200 5350 60  0001 C CNN
 F 3 "" H 2200 5350 60  0000 C CNN
@@ -791,7 +780,7 @@ U 1 1 5F7AD59A
 P 7200 2700
 F 0 "D1" V 7154 2780 50  0000 L CNN
 F 1 "D" V 7250 2800 50  0000 L CNN
-F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" H 7200 2700 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7200 2700 50  0001 C CNN
 F 3 "~" H 7200 2700 50  0001 C CNN
 	1    7200 2700
 	0    1    1    0   
@@ -802,7 +791,7 @@ U 1 1 5F7AE7F3
 P 7450 2700
 F 0 "D2" V 7404 2780 50  0000 L CNN
 F 1 "D" V 7495 2780 50  0000 L CNN
-F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" H 7450 2700 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7450 2700 50  0001 C CNN
 F 3 "~" H 7450 2700 50  0001 C CNN
 	1    7450 2700
 	0    1    1    0   
@@ -813,7 +802,7 @@ U 1 1 5F7AEC15
 P 7700 2700
 F 0 "D3" V 7654 2780 50  0000 L CNN
 F 1 "D" V 7745 2780 50  0000 L CNN
-F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" H 7700 2700 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7700 2700 50  0001 C CNN
 F 3 "~" H 7700 2700 50  0001 C CNN
 	1    7700 2700
 	0    1    1    0   
@@ -823,8 +812,8 @@ L Device:D D4
 U 1 1 5F7AF015
 P 7950 2700
 F 0 "D4" V 7904 2780 50  0000 L CNN
-F 1 "(1n4148)x4" V 7995 2780 50  0000 L CNN
-F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" H 7950 2700 50  0001 C CNN
+F 1 "D" V 7995 2780 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 7950 2700 50  0001 C CNN
 F 3 "~" H 7950 2700 50  0001 C CNN
 	1    7950 2700
 	0    1    1    0   
@@ -986,4 +975,27 @@ Wire Wire Line
 	6300 1500 6950 1500
 Text Notes 5600 1350 0    50   ~ 0
 Alimentacion de 5 volts DC \n\n
+Text Notes 3050 7000 0    50   ~ 0
+Conversor Addc 12 bits \n
+Wire Notes Line
+	3650 6600 3450 6850
+Wire Notes Line
+	3450 6850 3300 6850
+$Comp
+L Poncho_Esqueleto:Conn_Poncho2P_2x_20x2 X1
+U 2 1 5F6D5FC5
+P 1550 1100
+F 0 "X1" H 1900 1647 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 1900 1541 60  0000 C CNN
+F 2 "Poncho_Esqueleto:Conn_Poncho_Chico" H 1550 1100 60  0001 C CNN
+F 3 "" H 1550 1100 60  0000 C CNN
+	2    1550 1100
+	1    0    0    -1  
+$EndComp
+Text Notes 7000 2350 0    50   ~ 0
+Diodos Flyback\n
+Wire Notes Line
+	7050 2400 7150 2600
+Text Notes 8250 2700 0    50   ~ 0
+D:1N4148\n
 $EndSCHEMATC
