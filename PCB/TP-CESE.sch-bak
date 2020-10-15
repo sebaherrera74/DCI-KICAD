@@ -1275,4 +1275,10 @@ Wire Wire Line
 	8150 900  8350 900 
 Wire Wire Line
 	8350 1200 8350 1300
+Text Notes 8300 750  0    50   ~ 0
+Test de alimentacion a mosfets
+Wire Notes Line
+	8400 800  8300 850 
+Wire Notes Line
+	8300 850  8250 850 
 $EndSCHEMATC

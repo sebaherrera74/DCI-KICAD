@@ -638,7 +638,7 @@ U 1 1 5F6DB993
 P 3450 5550
 F 0 "C1" H 3568 5596 50  0000 L CNN
 F 1 "1 uf" H 3568 5505 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 3488 5400 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x4.5" H 3488 5400 50  0001 C CNN
 F 3 "~" H 3450 5550 50  0001 C CNN
 	1    3450 5550
 	1    0    0    -1  
