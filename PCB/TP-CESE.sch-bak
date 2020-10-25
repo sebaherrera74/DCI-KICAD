@@ -1305,4 +1305,37 @@ F 3 "" H 3100 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3000 6000 3100 6000
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5FA19856
+P 9900 5500
+F 0 "FID2" H 9985 5546 50  0000 L CNN
+F 1 "Fiducial" H 9985 5455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9900 5500 50  0001 C CNN
+F 3 "~" H 9900 5500 50  0001 C CNN
+	1    9900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5FA1A33A
+P 10350 5500
+F 0 "FID3" H 10435 5546 50  0000 L CNN
+F 1 "Fiducial" H 10435 5455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10350 5500 50  0001 C CNN
+F 3 "~" H 10350 5500 50  0001 C CNN
+	1    10350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5FA1AA16
+P 9900 5750
+F 0 "FID1" H 9985 5796 50  0000 L CNN
+F 1 "Fiducial" H 9985 5705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9900 5750 50  0001 C CNN
+F 3 "~" H 9900 5750 50  0001 C CNN
+	1    9900 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
