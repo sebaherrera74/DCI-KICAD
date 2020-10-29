@@ -9,7 +9,7 @@ Date "2020-10-16"
 Rev "1.1"
 Comp "Sebastian Herrera-Inquinoa-Conicet"
 Comment1 "Revisores:Carlos Carreño Romano,Diego Brengi"
-Comment2 "Licencia:El autor autoriza su uso "
+Comment2 "Licencia: Licencia BSD (proyecto  CIAA)"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -577,7 +577,7 @@ U 1 1 5F7AD59A
 P 7200 2700
 F 0 "D1" V 7050 2750 50  0000 L CNN
 F 1 "1N4148" H 7150 2550 50  0000 L CNN
-F 2 "Diode_SMD:D_SC-80_HandSoldering" H 7200 2700 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7200 2700 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 7200 2700 50  0001 C CNN
 F 4 "1N4148FS-ND" V 7200 2700 50  0001 C CNN "Digikey#"
 	1    7200 2700
@@ -589,7 +589,7 @@ U 1 1 5F7AEC15
 P 7700 2700
 F 0 "D3" V 7550 2750 50  0000 L CNN
 F 1 "1N4148" H 7650 2600 50  0000 L CNN
-F 2 "Diode_SMD:D_SC-80_HandSoldering" H 7700 2700 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7700 2700 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 7700 2700 50  0001 C CNN
 F 4 "1N4148FS-ND" V 7700 2700 50  0001 C CNN "Digikey#"
 	1    7700 2700
@@ -601,7 +601,7 @@ U 1 1 5F7AF015
 P 7950 2700
 F 0 "D4" V 7800 2750 50  0000 L CNN
 F 1 "1N4148" H 7900 2600 50  0000 L CNN
-F 2 "Diode_SMD:D_SC-80_HandSoldering" H 7950 2700 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7950 2700 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 7950 2700 50  0001 C CNN
 F 4 "1N4148FS-ND" V 7950 2700 50  0001 C CNN "digikey#"
 F 5 "1N4148FS-ND" H 7950 2700 50  0001 C CNN "Digikey#"
@@ -855,7 +855,7 @@ U 1 1 5F7AE7F3
 P 7450 2700
 F 0 "D2" V 7300 2750 50  0000 L CNN
 F 1 "1N4148" H 7400 2600 50  0000 L CNN
-F 2 "Diode_SMD:D_SC-80_HandSoldering" H 7450 2700 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 2700 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 7450 2700 50  0001 C CNN
 F 4 "1N4148FS-ND" V 7450 2700 50  0001 C CNN "Digikey#"
 	1    7450 2700
@@ -1139,7 +1139,7 @@ $Comp
 L Mechanical:MountingHole H1
 U 1 1 5F8D2067
 P 7900 5700
-F 0 "H1" H 8000 5746 50  0000 L CNN
+F 0 "H1" H 8000 5746 50  0001 L CNN
 F 1 "MountingHole" H 8000 5655 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 7900 5700 50  0001 C CNN
 F 3 "~" H 7900 5700 50  0001 C CNN
@@ -1150,7 +1150,7 @@ $Comp
 L Mechanical:MountingHole H2
 U 1 1 5F8D3331
 P 7900 6000
-F 0 "H2" H 8000 6046 50  0000 L CNN
+F 0 "H2" H 8000 6046 50  0001 L CNN
 F 1 "MountingHole" H 8000 5955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 7900 6000 50  0001 C CNN
 F 3 "~" H 7900 6000 50  0001 C CNN
@@ -1161,7 +1161,7 @@ $Comp
 L Mechanical:MountingHole H4
 U 1 1 5F8D3884
 P 8650 6000
-F 0 "H4" H 8750 6046 50  0000 L CNN
+F 0 "H4" H 8750 6046 50  0001 L CNN
 F 1 "MountingHole" H 8750 5955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 8650 6000 50  0001 C CNN
 F 3 "~" H 8650 6000 50  0001 C CNN
@@ -1172,7 +1172,7 @@ $Comp
 L Mechanical:MountingHole H3
 U 1 1 5F8D3E5A
 P 8650 5700
-F 0 "H3" H 8750 5746 50  0000 L CNN
+F 0 "H3" H 8750 5746 50  0001 L CNN
 F 1 "MountingHole" H 8750 5655 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 8650 5700 50  0001 C CNN
 F 3 "~" H 8650 5700 50  0001 C CNN
@@ -1309,7 +1309,7 @@ $Comp
 L Mechanical:Fiducial FID2
 U 1 1 5FA19856
 P 9900 5500
-F 0 "FID2" H 9985 5546 50  0000 L CNN
+F 0 "FID2" H 9985 5546 50  0001 L CNN
 F 1 "Fiducial" H 9985 5455 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9900 5500 50  0001 C CNN
 F 3 "~" H 9900 5500 50  0001 C CNN
@@ -1320,7 +1320,7 @@ $Comp
 L Mechanical:Fiducial FID3
 U 1 1 5FA1A33A
 P 10350 5500
-F 0 "FID3" H 10435 5546 50  0000 L CNN
+F 0 "FID3" H 10435 5546 50  0001 L CNN
 F 1 "Fiducial" H 10435 5455 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10350 5500 50  0001 C CNN
 F 3 "~" H 10350 5500 50  0001 C CNN
@@ -1336,6 +1336,17 @@ F 1 "Fiducial" H 9985 5705 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9900 5750 50  0001 C CNN
 F 3 "~" H 9900 5750 50  0001 C CNN
 	1    9900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Poncho_Esqueleto:Logo_Poncho #G1
+U 1 1 5F9C2AF2
+P 8050 5000
+F 0 "#G1" H 8000 4600 60  0001 C CNN
+F 1 "Logo_Poncho" H 8250 4600 60  0001 C CNN
+F 2 "Poncho_Esqueleto:Logo_Poncho" H 7950 4550 60  0000 C CNN
+F 3 "" H 8050 5000 60  0000 C CNN
+	1    8050 5000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
